@@ -5,8 +5,7 @@
   "main": "./src/server.js",
   "scripts": {
     "start": "nodemon",
-    "init-db": "node src/db/init.js",
-    "front": "http-server ./ --port=3000 -c-1"
+    "init-db": "node src/db/init.js"    
   },
   "keywords": [],
   "author": "Gleydson",
@@ -14,7 +13,6 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "http-server": "^0.12.3",
     "sqlite": "^4.0.21",
     "sqlite3": "^5.0.2"
   },
